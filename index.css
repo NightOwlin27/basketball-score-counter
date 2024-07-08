@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "CursedTimerUlil-Aznm";
+    src: url("./cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-image: url(./basketball.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightgrey;
+}
+
+.container,
+.reset {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid #e5e5e5 5px;
+    border-bottom: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 620px;
+    height: 400px;
+    padding: 3rem 3rem;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+h3,
+.reset {
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #e5e5e5;
+}
+
+.blackbox {
+    border-radius: 5px;
+    max-width: 165px;
+    max-height: 130px;
+    padding: 1.5rem 3.5rem;
+    background-color: #080001;
+    font-size: 90px;
+    font-family: "CursedTimerUlil-Aznm";
+    color: #F94F6D;  
+}
+
+.points {
+    display: flex;
+    align-items: space-around;
+    gap: 1rem;
+    margin: 2rem 0rem;
+    text-align: center; 
+}
+
+.point {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: .7rem 0rem;
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+    font-family: "CursedTimerUlil-Aznm";
+    text-align: center;
+    color: #9AABD8;
+}
+
+.reset {
+    border-bottom: solid #e5e5e5 5px;
+    height: 100px;
+}
